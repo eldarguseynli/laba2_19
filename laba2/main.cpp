@@ -57,16 +57,16 @@ int main() {
 	}
 	case 2: {
 		//Генерируем датасеты с разным кол-вом элементов
-		genSParr(DatasetNames[0], 110, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[1], 130, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[2], 140, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[3], 150, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[4], 160, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[5], 170, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[6], 180, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[7], 190, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[8], 200, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
-		genSParr(DatasetNames[9], 220, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[0], 2500, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[1], 3000, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[2], 4000, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[3], 3500, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[4], 4000, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[5], 4500, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[6], 5000, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[7], 5500, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[8], 6500, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
+		genSParr(DatasetNames[9], 7000, "surnames.csv", "names.csv", "patronymics.csv", "sportnames.csv");
 	}
 	}
 	datasetsSize = new int[datafilesNumber];
@@ -109,4 +109,5 @@ int main() {
 	delete[] timeHeapArr;
 
 	std::cout << std::setfill(' ') << std::setw(2) << "" << "Sorting is completed! You can watch the result in file \"TimeSortTable.csv\".";
+	Среднее время
 }
